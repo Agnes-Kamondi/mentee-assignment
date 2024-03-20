@@ -2,6 +2,7 @@ fun main() {
    var school = checkLength("Akirachix")
 
     var name1 =name("Agnes")
+       println(name1.uppercase())
 
     var place =give("Naivasha")
 
@@ -24,7 +25,9 @@ fun main() {
 }
 //write a kotlin function that takes in a string and returns the length.
 fun checkLength(school:String): Int{
-    return school.length
+   var  size = school.length
+    println(size)
+    return size
 }
 // write a kotlin function that takes a string as an input and returns the string in uppercase letters.
 fun name(name1:String): String{
@@ -32,11 +35,14 @@ fun name(name1:String): String{
 }
 //write a kotlin function that takes a string as an input and returns the string in lowercase letters.
 fun give (place:String): String{
-  return place.lowercase()
+   var county =place.lowercase()
+    println(county)
+    return county
 }
 //Write a function that takes a string as input and returns the last character of the string.
 fun here (present:String): Char{
-   return present.last()
+    var presently = present.last()
+    return presently
 }
 //Write a function that takes two strings as input and concatenates them together.
 fun merge (three:String,four:String): String{
